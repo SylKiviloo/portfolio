@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #50d8af;
+  color: #2c8c8c;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #51d8af;
+  color: #2c8c8c;
   outline: none;
   text-decoration: none;
 }
@@ -56,7 +56,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #50d8af;
+  background: #2c8c8c;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -69,7 +69,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #71dfbe;
+  background: #404444;
   color: #fff;
 }
 
@@ -135,6 +135,7 @@ h6 {
   z-index: 997;
   background: #fff;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  border-bottom: 2px solid #9f9f9f;
 }
 
 /*#header #logo h1 {
@@ -223,7 +224,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #50d8af;
+  color: #2c8c8c;
 }
 
 .navbar .dropdown ul {
@@ -257,7 +258,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #50d8af;
+  color: #2c8c8c;
 }
 
 .navbar .dropdown:hover>ul {
@@ -293,7 +294,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #0c2e8a;
+  color: #404444;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -356,7 +357,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #50d8af;
+  color: #2c8c8c;
 }
 
 .navbar-mobile .getstarted,
@@ -391,7 +392,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #50d8af;
+  color: #2c8c8c;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -408,6 +409,7 @@ h6 {
   background: url("../img/hero-carousel/1.jpg") no-repeat;
   background-size: cover;
   padding: 0;
+  border-bottom: 2px solid #9f9f9f;
 }
 
 #hero .hero-content {
@@ -524,7 +526,7 @@ section {
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: #404444
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -537,7 +539,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #2c8c8c;
   bottom: 0;
   left: 0;
 }
@@ -629,7 +631,7 @@ section {
 }
 
 #about .content h2 {
-  color: #0c2e8a;
+  color: #404444
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -654,7 +656,7 @@ section {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #2c8c8c;
 }
 
 #about .content ul {
@@ -668,7 +670,7 @@ section {
 
 /* Services Section
 --------------------------------*/
-#services {
+/*#services {
   padding: 40px 0;
 }
 
@@ -741,40 +743,40 @@ section {
     margin-left: 0;
     text-align: center;
   }
-}
+}*/
 
-/* Clients Section
+/* Skills Section
 --------------------------------*/
-#clients {
+#skills {
   padding: 30px 0;
 }
 
-#clients img {
+#skills img {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
 }
 
-#clients img:hover {
+#skills img:hover {
   opacity: 1;
 }
 
-#clients .swiper-pagination {
+#skills .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-#clients .swiper-pagination .swiper-pagination-bullet {
+#skills .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #50d8af;
+  border: 1px solid #2c8c8c;
 }
 
-#clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #50d8af;
+#skills .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #2c8c8c;
 }
 
 /* Our Portfolio Section
@@ -809,7 +811,7 @@ section {
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #50d8af;
+  background: #2c8c8c;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -835,7 +837,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #50d8af;
+  background: #2c8c8c;
   padding: 15px 20px;
 }
 
@@ -900,11 +902,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #50d8af;
+  border: 1px solid #2c8c8c;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #50d8af;
+  background-color: #2c8c8c;
 }
 
 .portfolio-details .portfolio-info {
@@ -946,7 +948,7 @@ section {
 
 /* Testimonials Section
 --------------------------------*/
-#testimonials {
+/*#testimonials {
   padding: 30px 0;
 }
 
@@ -1025,24 +1027,26 @@ section {
 
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #50d8af;
-}
+}*/
 
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #081e5b;
+  background: #dfdfdf;
   background-size: cover;
   padding: 40px 0;
+  border-top: 2px solid #9f9f9f;
+  border-bottom: 2px solid #9f9f9f;
 }
 
 #call-to-action .cta-title {
-  color: #fff;
+  color: #404444;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
-  color: #fff;
+  color: #404444;
 }
 
 @media (min-width: 769px) {
@@ -1063,18 +1067,23 @@ section {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #fff;
-  color: #fff;
+  border: 3px solid #2c8c8c;
+  color: #404444;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #2c8c8c;
+  border: 3px solid #2c8c8c;
+  color: #fff;
+}
+
+#call-to-action .social-links {
+  padding-bottom: 1em;
 }
 
 /* Our Team Section
 --------------------------------*/
-#team {
+/*#team {
   background: #fff;
   padding: 30px 0 0 0;
 }
@@ -1123,11 +1132,11 @@ section {
 #team .member .social i {
   font-size: 16px;
   margin: 0 2px;
-}
+}*/
 
 /* Contact Section
 --------------------------------*/
-#contact {
+/*#contact {
   padding: 30px 0;
 }
 
@@ -1282,7 +1291,7 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 # Footer
@@ -1305,5 +1314,5 @@ section {
 }
 
 #footer .credits a {
-  color: #0c2e8a;
+  color: #2c8c8c;
 }
